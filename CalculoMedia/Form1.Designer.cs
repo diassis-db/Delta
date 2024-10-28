@@ -33,17 +33,17 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
+            this.btn_calcular = new System.Windows.Forms.Button();
+            this.btn_limpar = new System.Windows.Forms.Button();
+            this.label_situacao = new System.Windows.Forms.Label();
+            this.label_nota = new System.Windows.Forms.Label();
+            this.tb_nota01 = new System.Windows.Forms.TextBox();
+            this.tb_nota02 = new System.Windows.Forms.TextBox();
+            this.tb_nota03 = new System.Windows.Forms.TextBox();
+            this.tb_nota04 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // label2
@@ -90,91 +90,16 @@
             this.label5.TabIndex = 4;
             this.label5.Text = "Nota 04";
             // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(310, 14);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 22);
-            this.textBox1.TabIndex = 5;
-            this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
-            this.textBox1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox1_KeyPress);
-            // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(310, 60);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 22);
-            this.textBox2.TabIndex = 6;
-            this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
-            this.textBox2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox2_KeyPress);
-            // 
-            // textBox3
-            // 
-            this.textBox3.Location = new System.Drawing.Point(309, 105);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 22);
-            this.textBox3.TabIndex = 7;
-            this.textBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.textBox3.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
-            this.textBox3.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox3_KeyPress);
-            // 
-            // textBox4
-            // 
-            this.textBox4.Location = new System.Drawing.Point(310, 147);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(100, 22);
-            this.textBox4.TabIndex = 8;
-            this.textBox4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.textBox4.TextChanged += new System.EventHandler(this.textBox4_TextChanged);
-            this.textBox4.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox4_KeyPress);
-            // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(449, 95);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(86, 32);
-            this.button1.TabIndex = 9;
-            this.button1.Text = "Calcular";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // button2
-            // 
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(453, 142);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 31);
-            this.button2.TabIndex = 10;
-            this.button2.Text = "Limpar";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
             // label6
             // 
             this.label6.AutoSize = true;
             this.label6.BackColor = System.Drawing.Color.Transparent;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(392, 224);
+            this.label6.Location = new System.Drawing.Point(392, 206);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(99, 20);
             this.label6.TabIndex = 11;
             this.label6.Text = "A média é:";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.BackColor = System.Drawing.Color.Transparent;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(494, 223);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(34, 20);
-            this.label7.TabIndex = 12;
-            this.label7.Text = ".....";
-            this.label7.Click += new System.EventHandler(this.label7_Click);
             // 
             // label8
             // 
@@ -200,16 +125,90 @@
             this.label9.TabIndex = 14;
             this.label9.Text = "deve ser igual ou maior que 7";
             // 
-            // label10
+            // btn_calcular
             // 
-            this.label10.AutoSize = true;
-            this.label10.BackColor = System.Drawing.Color.Transparent;
-            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(402, 265);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(100, 24);
-            this.label10.TabIndex = 15;
-            this.label10.Text = "Aprovado";
+            this.btn_calcular.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.btn_calcular.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_calcular.Location = new System.Drawing.Point(447, 94);
+            this.btn_calcular.Name = "btn_calcular";
+            this.btn_calcular.Size = new System.Drawing.Size(86, 32);
+            this.btn_calcular.TabIndex = 9;
+            this.btn_calcular.Text = "Calcular";
+            this.btn_calcular.UseVisualStyleBackColor = false;
+            this.btn_calcular.Click += new System.EventHandler(this.btn_calcular_Click);
+            // 
+            // btn_limpar
+            // 
+            this.btn_limpar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_limpar.Location = new System.Drawing.Point(453, 138);
+            this.btn_limpar.Name = "btn_limpar";
+            this.btn_limpar.Size = new System.Drawing.Size(75, 31);
+            this.btn_limpar.TabIndex = 16;
+            this.btn_limpar.Text = "Limpar";
+            this.btn_limpar.UseVisualStyleBackColor = true;
+            this.btn_limpar.Click += new System.EventHandler(this.btn_limpar_Click);
+            // 
+            // label_situacao
+            // 
+            this.label_situacao.AutoSize = true;
+            this.label_situacao.BackColor = System.Drawing.Color.Transparent;
+            this.label_situacao.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_situacao.Location = new System.Drawing.Point(428, 272);
+            this.label_situacao.Name = "label_situacao";
+            this.label_situacao.Size = new System.Drawing.Size(100, 24);
+            this.label_situacao.TabIndex = 17;
+            this.label_situacao.Text = "Aprovado";
+            // 
+            // label_nota
+            // 
+            this.label_nota.AutoSize = true;
+            this.label_nota.BackColor = System.Drawing.Color.Transparent;
+            this.label_nota.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_nota.Location = new System.Drawing.Point(497, 206);
+            this.label_nota.Name = "label_nota";
+            this.label_nota.Size = new System.Drawing.Size(34, 20);
+            this.label_nota.TabIndex = 18;
+            this.label_nota.Text = ".....";
+            // 
+            // tb_nota01
+            // 
+            this.tb_nota01.Location = new System.Drawing.Point(310, 17);
+            this.tb_nota01.Name = "tb_nota01";
+            this.tb_nota01.Size = new System.Drawing.Size(100, 22);
+            this.tb_nota01.TabIndex = 19;
+            this.tb_nota01.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tb_nota01.TextChanged += new System.EventHandler(this.tb_nota01_TextChanged);
+            this.tb_nota01.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tb_nota01_KeyPress);
+            // 
+            // tb_nota02
+            // 
+            this.tb_nota02.Location = new System.Drawing.Point(310, 60);
+            this.tb_nota02.Name = "tb_nota02";
+            this.tb_nota02.Size = new System.Drawing.Size(100, 22);
+            this.tb_nota02.TabIndex = 20;
+            this.tb_nota02.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tb_nota02.TextChanged += new System.EventHandler(this.tb_nota02_TextChanged);
+            this.tb_nota02.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tb_nota02_KeyPress);
+            // 
+            // tb_nota03
+            // 
+            this.tb_nota03.Location = new System.Drawing.Point(310, 104);
+            this.tb_nota03.Name = "tb_nota03";
+            this.tb_nota03.Size = new System.Drawing.Size(100, 22);
+            this.tb_nota03.TabIndex = 21;
+            this.tb_nota03.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tb_nota03.TextChanged += new System.EventHandler(this.tb_nota03_TextChanged);
+            this.tb_nota03.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tb_nota03_KeyPress);
+            // 
+            // tb_nota04
+            // 
+            this.tb_nota04.Location = new System.Drawing.Point(310, 147);
+            this.tb_nota04.Name = "tb_nota04";
+            this.tb_nota04.Size = new System.Drawing.Size(100, 22);
+            this.tb_nota04.TabIndex = 22;
+            this.tb_nota04.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tb_nota04.TextChanged += new System.EventHandler(this.tb_nota04_TextChanged);
+            this.tb_nota04.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tb_nota04_KeyPress);
             // 
             // Form1
             // 
@@ -217,17 +216,17 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(590, 305);
-            this.Controls.Add(this.label10);
+            this.Controls.Add(this.tb_nota04);
+            this.Controls.Add(this.tb_nota03);
+            this.Controls.Add(this.tb_nota02);
+            this.Controls.Add(this.tb_nota01);
+            this.Controls.Add(this.label_nota);
+            this.Controls.Add(this.label_situacao);
+            this.Controls.Add(this.btn_limpar);
+            this.Controls.Add(this.btn_calcular);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label8);
-            this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -248,17 +247,17 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Button btn_calcular;
+        private System.Windows.Forms.Button btn_limpar;
+        private System.Windows.Forms.Label label_situacao;
+        private System.Windows.Forms.Label label_nota;
+        private System.Windows.Forms.TextBox tb_nota01;
+        private System.Windows.Forms.TextBox tb_nota02;
+        private System.Windows.Forms.TextBox tb_nota03;
+        private System.Windows.Forms.TextBox tb_nota04;
     }
 }
 
