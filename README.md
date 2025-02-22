@@ -2,5 +2,5 @@
 Tela do sistema
 
 Executável que realizar a média de 4 notas bimestrais que o usuário informa;
-O sistema mostrará se o aluno atingiu a média > 7 para ser Aprovado, caso contrário mostrará Reprovado.
+O sistema mostrará se o aluno atingiu a média maior ou igual a 7 para ser Aprovado, caso contrário mostrará Reprovado.
 O usuário poderá digitar apenas números positivos e fracionários.
