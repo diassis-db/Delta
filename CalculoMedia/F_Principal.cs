@@ -1,24 +1,17 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Globalization;
 
 namespace CalculoMedia
 {
-    public partial class Form1 : Form
+    public partial class F_Principal : Form
     {
-        public Form1()
+        public F_Principal()
         {
             InitializeComponent();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void F_Principal_Load(object sender, EventArgs e)
         {
             label_situacao.Visible = false;
             tb_nota01.Focus();
@@ -71,6 +64,7 @@ namespace CalculoMedia
                 }
                 this.Controls["label_nota"].Text = ".....";
                 label_situacao.Visible = false;
+                tb_nota01.Focus();
             }
         }
 
