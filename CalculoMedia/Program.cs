@@ -16,7 +16,7 @@ namespace CalculoMedia
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new F_Principal());
         }
         public static void IntNumber(KeyPressEventArgs e)
         {
