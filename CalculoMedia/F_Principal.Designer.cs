@@ -55,7 +55,7 @@
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(57, 15);
-            this.label2.TabIndex = 1;
+            this.label2.TabIndex = 6;
             this.label2.Text = "Nota 01";
             // 
             // label3
@@ -67,7 +67,7 @@
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(57, 15);
-            this.label3.TabIndex = 2;
+            this.label3.TabIndex = 7;
             this.label3.Text = "Nota 02";
             // 
             // label4
@@ -79,7 +79,7 @@
             this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(57, 15);
-            this.label4.TabIndex = 3;
+            this.label4.TabIndex = 8;
             this.label4.Text = "Nota 03";
             // 
             // label5
@@ -91,7 +91,7 @@
             this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(57, 15);
-            this.label5.TabIndex = 4;
+            this.label5.TabIndex = 9;
             this.label5.Text = "Nota 04";
             // 
             // label6
@@ -103,7 +103,7 @@
             this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(85, 17);
-            this.label6.TabIndex = 11;
+            this.label6.TabIndex = 10;
             this.label6.Text = "A média é:";
             // 
             // label8
@@ -116,7 +116,7 @@
             this.label8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(268, 13);
-            this.label8.TabIndex = 13;
+            this.label8.TabIndex = 12;
             this.label8.Text = "A média programada para aprovação do aluno";
             // 
             // label9
@@ -129,7 +129,7 @@
             this.label9.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(175, 13);
-            this.label9.TabIndex = 14;
+            this.label9.TabIndex = 13;
             this.label9.Text = "deve ser igual ou maior que 7";
             // 
             // btn_calcular
@@ -137,10 +137,10 @@
             this.btn_calcular.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.btn_calcular.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_calcular.Location = new System.Drawing.Point(335, 76);
-            this.btn_calcular.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_calcular.Margin = new System.Windows.Forms.Padding(2);
             this.btn_calcular.Name = "btn_calcular";
             this.btn_calcular.Size = new System.Drawing.Size(64, 26);
-            this.btn_calcular.TabIndex = 9;
+            this.btn_calcular.TabIndex = 4;
             this.btn_calcular.Text = "Calcular";
             this.btn_calcular.UseVisualStyleBackColor = false;
             this.btn_calcular.Click += new System.EventHandler(this.btn_calcular_Click);
@@ -149,10 +149,10 @@
             // 
             this.btn_limpar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_limpar.Location = new System.Drawing.Point(340, 112);
-            this.btn_limpar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_limpar.Margin = new System.Windows.Forms.Padding(2);
             this.btn_limpar.Name = "btn_limpar";
             this.btn_limpar.Size = new System.Drawing.Size(56, 25);
-            this.btn_limpar.TabIndex = 16;
+            this.btn_limpar.TabIndex = 5;
             this.btn_limpar.Text = "Limpar";
             this.btn_limpar.UseVisualStyleBackColor = true;
             this.btn_limpar.Click += new System.EventHandler(this.btn_limpar_Click);
@@ -166,7 +166,7 @@
             this.label_situacao.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label_situacao.Name = "label_situacao";
             this.label_situacao.Size = new System.Drawing.Size(79, 18);
-            this.label_situacao.TabIndex = 17;
+            this.label_situacao.TabIndex = 11;
             this.label_situacao.Text = "Aprovado";
             // 
             // label_nota
@@ -184,10 +184,10 @@
             // tb_nota01
             // 
             this.tb_nota01.Location = new System.Drawing.Point(232, 14);
-            this.tb_nota01.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tb_nota01.Margin = new System.Windows.Forms.Padding(2);
             this.tb_nota01.Name = "tb_nota01";
             this.tb_nota01.Size = new System.Drawing.Size(76, 20);
-            this.tb_nota01.TabIndex = 19;
+            this.tb_nota01.TabIndex = 0;
             this.tb_nota01.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tb_nota01.TextChanged += new System.EventHandler(this.tb_nota01_TextChanged);
             this.tb_nota01.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tb_nota01_KeyPress);
@@ -195,10 +195,10 @@
             // tb_nota02
             // 
             this.tb_nota02.Location = new System.Drawing.Point(232, 49);
-            this.tb_nota02.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tb_nota02.Margin = new System.Windows.Forms.Padding(2);
             this.tb_nota02.Name = "tb_nota02";
             this.tb_nota02.Size = new System.Drawing.Size(76, 20);
-            this.tb_nota02.TabIndex = 20;
+            this.tb_nota02.TabIndex = 1;
             this.tb_nota02.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tb_nota02.TextChanged += new System.EventHandler(this.tb_nota02_TextChanged);
             this.tb_nota02.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tb_nota02_KeyPress);
@@ -206,10 +206,10 @@
             // tb_nota03
             // 
             this.tb_nota03.Location = new System.Drawing.Point(232, 84);
-            this.tb_nota03.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tb_nota03.Margin = new System.Windows.Forms.Padding(2);
             this.tb_nota03.Name = "tb_nota03";
             this.tb_nota03.Size = new System.Drawing.Size(76, 20);
-            this.tb_nota03.TabIndex = 21;
+            this.tb_nota03.TabIndex = 2;
             this.tb_nota03.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tb_nota03.TextChanged += new System.EventHandler(this.tb_nota03_TextChanged);
             this.tb_nota03.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tb_nota03_KeyPress);
@@ -217,10 +217,10 @@
             // tb_nota04
             // 
             this.tb_nota04.Location = new System.Drawing.Point(232, 119);
-            this.tb_nota04.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tb_nota04.Margin = new System.Windows.Forms.Padding(2);
             this.tb_nota04.Name = "tb_nota04";
             this.tb_nota04.Size = new System.Drawing.Size(76, 20);
-            this.tb_nota04.TabIndex = 22;
+            this.tb_nota04.TabIndex = 3;
             this.tb_nota04.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tb_nota04.TextChanged += new System.EventHandler(this.tb_nota04_TextChanged);
             this.tb_nota04.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tb_nota04_KeyPress);
@@ -247,7 +247,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.MaximizeBox = false;
             this.Name = "F_Principal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
